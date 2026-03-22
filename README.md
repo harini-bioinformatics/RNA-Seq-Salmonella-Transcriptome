@@ -52,9 +52,9 @@ Trinity --seqType fq \
 ### 5. BLAST Analysis
 blastn -query transcripts.fasta -db nt -out results.out -evalue 1e-5
 
-6. Functional analysis using PANTHER
-7. Comparative analysis using Venny
-8. Molecular docking of selected targets
+### 6. Functional analysis using PANTHER
+### 7. Comparative analysis using Venny
+### 8. Molecular docking of selected targets
 
 ## 📊 Results
 
