@@ -36,7 +36,7 @@ This project focuses on RNA-Seq based transcriptome analysis to identify unique 
 ### Venny Diagram
 This diagram shows the comparison of transcripts across different datasets and helps identify unique and shared genes.
 
-![Venny](Venn%20diagram.png)
+![Venny](Venn_diagram.png)
 
 ### Docking result
 
@@ -48,52 +48,52 @@ This diagram shows the comparison of transcripts across different datasets and h
 - Structural visualization using PyMOL confirmed proper orientation and binding within the active pocket  
 - These results indicate that the ligand may act as a potential lead compound for further drug discovery studies
 
-![Docking](Dock%20result%201.png)
-![Docking](Dock%20result%202.png)
-![Docking](Dock%20result%203.png)
-![Docking](Dock%20result%204.png)
+![Docking](Dockresult1.png)
+![Docking](Dockresult2.png)
+![Docking](Dockresult3.png)
+![Docking](Dockresult4.png)
 
 ### FastQC Analysis (Raw Reads)
 Quality assessment of raw RNA-Seq reads was performed using FastQC.  
 The analysis provided insights into sequence quality scores, GC content, and potential adapter contamination.  
 Minor variations in base quality were observed toward the end of reads, which is common in high-throughput sequencing data.
 
-![FastQC Raw](FastQC%20Raw%20reads.png)
+![FastQC Raw](Fastqc_rawreads.png)
 
 ### FastQC Analysis (Trimmed Reads)
 Post-trimming quality assessment was performed using FastQC to ensure data reliability.  
 The trimmed reads showed improved quality scores across all base positions, with removal of low-quality bases and adapter sequences.  
 This confirmed that the preprocessing step enhanced the overall data quality for downstream analysis.
 
-![FastQC Trimmed](FastQC%20trimmed%20reads.png)
+![FastQC Trimmed](Fastqc_trimmedreads.png)
 
 ### Gene Ontology Analysis – Molecular Function
 Functional annotation using PANTHER classified the identified transcripts based on their molecular functions.  
 The analysis revealed that a significant proportion of genes are involved in catalytic activity, binding functions, and antioxidant activity.  
 These functions indicate the presence of enzymes and regulatory proteins that play key roles in cellular metabolism and stress response mechanisms.
 
-![Panther GO](PantherGo%20bioprocess.png)
+![Panther GO](Panthergo_bioprocess.png)
 
 ### Gene Ontology Analysis – Biological Process
 Gene Ontology classification under biological processes highlighted the involvement of transcripts in essential cellular and metabolic pathways.  
 Key processes included cellular processes, detoxification, homeostasis, and response to external stimuli.  
 These findings provide insights into the functional roles of genes contributing to pathogenicity, adaptation, and survival mechanisms.
 
-![Panther GO](Panther%20Go%20Mol%20function.png)
+![Panther GO](Panthergo_Molfunction.png)
 
 ### Unique Transcript Identification
 Comparative analysis using Venny enabled the identification of unique and shared transcripts across datasets.  
 A set of unique transcripts was identified, which may represent strain-specific genes with potential roles in pathogenicity and adaptation.  
 These transcripts can serve as potential targets for further functional and therapeutic studies.
 
-![Unique transkript identification](Unique%20transcripts.png)
+![Unique transkript identification](Unique_transcripts.png)
 
 ### BLAST Analysis
 Sequence similarity search was performed using BLAST against reference databases to annotate the assembled transcripts.  
 The analysis identified homologous sequences and provided functional insights into gene identity and potential biological roles.  
 Several transcripts showed significant similarity to known proteins, enabling downstream functional classification and annotation.
 
-![Blast analysis](Blast%20result.png)
+![Blast analysis](Blast_result.png)
 
 
 ## 🧠 Skills Demonstrated
