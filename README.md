@@ -48,11 +48,10 @@ This diagram shows the comparison of transcripts across different datasets and h
 - Structural visualization using PyMOL confirmed proper orientation and binding within the active pocket  
 - These results indicate that the ligand may act as a potential lead compound for further drug discovery studies
 
-![Docking]
-(Dock%20result%201.png)
-(Dock%20result%202.png)
-(Dock%20result%203.png)
-(Dock%20result%204.png)
+![Docking](Dock%20result%201.png)
+![Docking](Dock%20result%202.png)
+![Docking](Dock%20result%203.png)
+![Docking](Dock%20result%204.png)
 
 ### FastQC Analysis (Raw Reads)
 Quality assessment of raw RNA-Seq reads was performed using FastQC.  
@@ -66,21 +65,21 @@ Post-trimming quality assessment was performed using FastQC to ensure data relia
 The trimmed reads showed improved quality scores across all base positions, with removal of low-quality bases and adapter sequences.  
 This confirmed that the preprocessing step enhanced the overall data quality for downstream analysis.
 
-FastQC Trimmed (FastQC Trimmed reads.png)
+![FastQC Trimmed](FastQC%20Trimmed%20reads.png)
 
 ### Gene Ontology Analysis – Molecular Function
 Functional annotation using PANTHER classified the identified transcripts based on their molecular functions.  
 The analysis revealed that a significant proportion of genes are involved in catalytic activity, binding functions, and antioxidant activity.  
 These functions indicate the presence of enzymes and regulatory proteins that play key roles in cellular metabolism and stress response mechanisms.
 
-Panther GO (PantherGo bioprocess.png)
+![Panther GO](PantherGo%20bioprocess.png)
 
 ### Gene Ontology Analysis – Biological Process
 Gene Ontology classification under biological processes highlighted the involvement of transcripts in essential cellular and metabolic pathways.  
 Key processes included cellular processes, detoxification, homeostasis, and response to external stimuli.  
 These findings provide insights into the functional roles of genes contributing to pathogenicity, adaptation, and survival mechanisms.
 
-Panther GO (Panther Go Mol function.png)
+![Panther GO](Panther%20Go%20Mol%20function.png)
 
 
 
