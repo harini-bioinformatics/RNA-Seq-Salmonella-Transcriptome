@@ -65,7 +65,7 @@ Post-trimming quality assessment was performed using FastQC to ensure data relia
 The trimmed reads showed improved quality scores across all base positions, with removal of low-quality bases and adapter sequences.  
 This confirmed that the preprocessing step enhanced the overall data quality for downstream analysis.
 
-![FastQC Trimmed](FastQC%20Trimmed%20reads.png)
+![FastQC Trimmed](FastQC%20trimmed%20reads.png)
 
 ### Gene Ontology Analysis – Molecular Function
 Functional annotation using PANTHER classified the identified transcripts based on their molecular functions.  
