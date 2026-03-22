@@ -81,6 +81,19 @@ These findings provide insights into the functional roles of genes contributing 
 
 ![Panther GO](Panther%20Go%20Mol%20function.png)
 
+### Unique Transcript Identification
+Comparative analysis using Venny enabled the identification of unique and shared transcripts across datasets.  
+A set of unique transcripts was identified, which may represent strain-specific genes with potential roles in pathogenicity and adaptation.  
+These transcripts can serve as potential targets for further functional and therapeutic studies.
+
+![Unique transkript identification](Unique%20transcripts.png)
+
+### BLAST Analysis
+Sequence similarity search was performed using BLAST against reference databases to annotate the assembled transcripts.  
+The analysis identified homologous sequences and provided functional insights into gene identity and potential biological roles.  
+Several transcripts showed significant similarity to known proteins, enabling downstream functional classification and annotation.
+
+![Blast analysis](Blast%20result.png)
 
 
 ## 🧠 Skills Demonstrated
