@@ -36,7 +36,7 @@ This project focuses on RNA-Seq based transcriptome analysis to identify unique 
 ### Venny Diagram
 This diagram shows the comparison of transcripts across different datasets and helps identify unique and shared genes.
 
-![Venny](Venn diagram.png)
+![Venny](Venn%20diagram.png)
 
 ### Docking result
 
