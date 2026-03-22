@@ -1,11 +1,11 @@
+> 🔬 End-to-end RNA-Seq transcriptome analysis with functional annotation and docking validation
+
 ## 🔬 Project Highlights
 - Performed complete RNA-Seq analysis pipeline
 - Identified unique transcripts in Salmonella enterica
 - Conducted functional annotation using Gene Ontology
 - Performed comparative transcript analysis using Venny
 - Applied molecular docking on selected targets# RNA-Seq-Salmonella-Transcriptome
-
-RNA-Seq analysis using FastQC, Trinity, BLAST, and GO annotation
 
 # Transcriptomic Analysis of Salmonella enterica
 
