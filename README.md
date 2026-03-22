@@ -56,6 +56,8 @@ blastn -query transcripts.fasta -db nt -out results.out -evalue 1e-5
 ### 7. Comparative analysis using Venny
 ### 8. Molecular docking of selected targets
 
+The following workflow represents the step-by-step RNA-Seq analysis pipeline implemented during this study.
+
 ## 📊 Results
 
 ### Venny Diagram
