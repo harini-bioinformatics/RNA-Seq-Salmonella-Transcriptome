@@ -1,4 +1,10 @@
-# RNA-Seq-Salmonella-Transcriptome
+## 🔬 Project Highlights
+- Performed complete RNA-Seq analysis pipeline
+- Identified unique transcripts in Salmonella enterica
+- Conducted functional annotation using Gene Ontology
+- Performed comparative transcript analysis using Venny
+- Applied molecular docking on selected targets# RNA-Seq-Salmonella-Transcriptome
+
 RNA-Seq analysis using FastQC, Trinity, BLAST, and GO annotation
 
 # Transcriptomic Analysis of Salmonella enterica
@@ -25,11 +31,65 @@ This project focuses on RNA-Seq based transcriptome analysis to identify unique 
 7. Comparative analysis using Venny
 8. Molecular docking of selected targets
 
-## Results
-- Identification of unique transcripts
-- Functional classification using GO
-- Comparative transcript analysis using Venny
-- Docking-based interaction analysis
+## 📊 Results
+
+### Venny Diagram
+This diagram shows the comparison of transcripts across different datasets and helps identify unique and shared genes.
+
+![Venny](Venn diagram.png)
+
+### Docking result
+
+- Molecular docking was performed using AutoDock Vina to evaluate protein–ligand interactions  
+- The ligand exhibited strong binding affinity with the target protein  
+- Multiple docking conformations were generated, and the best pose was selected based on minimum binding energy  
+- Interaction analysis revealed key hydrogen bonds and hydrophobic interactions stabilizing the protein–ligand complex  
+- The ligand occupied the active site of the protein, suggesting potential inhibitory activity  
+- Structural visualization using PyMOL confirmed proper orientation and binding within the active pocket  
+- These results indicate that the ligand may act as a potential lead compound for further drug discovery studies
+
+![Docking]
+(Dock result 1.png)
+(Dock result 2.png)
+(Dock result 3.png)
+(Dock result 4.png)
+
+### FastQC Analysis (Raw Reads)
+Quality assessment of raw RNA-Seq reads was performed using FastQC.  
+The analysis provided insights into sequence quality scores, GC content, and potential adapter contamination.  
+Minor variations in base quality were observed toward the end of reads, which is common in high-throughput sequencing data.
+
+![FastQC Raw](FastQC Raw reads.png)
+
+### FastQC Analysis (Trimmed Reads)
+Post-trimming quality assessment was performed using FastQC to ensure data reliability.  
+The trimmed reads showed improved quality scores across all base positions, with removal of low-quality bases and adapter sequences.  
+This confirmed that the preprocessing step enhanced the overall data quality for downstream analysis.
+
+FastQC Trimmed (FastQC Trimmed reads.png)
+
+### Gene Ontology Analysis – Molecular Function
+Functional annotation using PANTHER classified the identified transcripts based on their molecular functions.  
+The analysis revealed that a significant proportion of genes are involved in catalytic activity, binding functions, and antioxidant activity.  
+These functions indicate the presence of enzymes and regulatory proteins that play key roles in cellular metabolism and stress response mechanisms.
+
+Panther GO (PantherGo bioprocess.png)
+
+### Gene Ontology Analysis – Biological Process
+Gene Ontology classification under biological processes highlighted the involvement of transcripts in essential cellular and metabolic pathways.  
+Key processes included cellular processes, detoxification, homeostasis, and response to external stimuli.  
+These findings provide insights into the functional roles of genes contributing to pathogenicity, adaptation, and survival mechanisms.
+
+Panther GO (Panther Go Mol function.png)
+
+
+
+## 🧠 Skills Demonstrated
+- RNA-Seq Analysis
+- NGS Data Processing
+- Functional Annotation (GO)
+- Comparative Analysis
+- Molecular Docking
 
 ## Author
 Harini R
