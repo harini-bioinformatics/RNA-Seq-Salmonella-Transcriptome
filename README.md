@@ -22,11 +22,36 @@ This project focuses on RNA-Seq based transcriptome analysis to identify unique 
 - AutoDock Vina (Docking)
 
 ## Workflow
-1. RNA-Seq data retrieval from NCBI SRA
-2. Quality control using FastQC
-3. Read trimming using Trimmomatic
-4. De novo assembly using Trinity
-5. Sequence annotation using BLAST
+
+### 1. RNA-Seq Data Retrieval
+- Downloaded RNA-Seq data from NCBI SRA
+
+### 2. Quality Control (FastQC)
+fastqc sample.fastq
+
+### 3. Read Trimming (Trimmomatic)
+trimmomatic PE sample_1.fastq sample_2.fastq \
+trimmed_1P.fastq trimmed_1U.fastq \
+trimmed_2P.fastq trimmed_2U.fastq \
+SLIDINGWINDOW:4:20 MINLEN:50
+
+### 4. De novo Assembly (Trinity)
+
+# Environment Setup
+conda create -n trinity-env trinity -c bioconda -c conda-forge
+conda activate trinity-env
+
+# Run Trinity
+Trinity --seqType fq \
+--left /home/insilicomics/Downloads/NGS-rna/SRR21159790_1.fastq \
+--right /home/insilicomics/Downloads/NGS-rna/SRR21159790_2.fastq \
+--CPU 8 \
+--max_memory 50G \
+--output trinity_out
+
+### 5. BLAST Analysis
+blastn -query transcripts.fasta -db nt -out results.out -evalue 1e-5
+
 6. Functional analysis using PANTHER
 7. Comparative analysis using Venny
 8. Molecular docking of selected targets
