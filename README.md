@@ -49,17 +49,17 @@ This diagram shows the comparison of transcripts across different datasets and h
 - These results indicate that the ligand may act as a potential lead compound for further drug discovery studies
 
 ![Docking]
-(Dock result 1.png)
-(Dock result 2.png)
-(Dock result 3.png)
-(Dock result 4.png)
+(Dock%20result%201.png)
+(Dock%20result%202.png)
+(Dock%20result%203.png)
+(Dock%20result%204.png)
 
 ### FastQC Analysis (Raw Reads)
 Quality assessment of raw RNA-Seq reads was performed using FastQC.  
 The analysis provided insights into sequence quality scores, GC content, and potential adapter contamination.  
 Minor variations in base quality were observed toward the end of reads, which is common in high-throughput sequencing data.
 
-![FastQC Raw](FastQC Raw reads.png)
+![FastQC Raw](FastQC%20Raw%20reads.png)
 
 ### FastQC Analysis (Trimmed Reads)
 Post-trimming quality assessment was performed using FastQC to ensure data reliability.  
