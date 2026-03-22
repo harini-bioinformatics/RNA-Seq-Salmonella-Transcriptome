@@ -1,6 +1,6 @@
-> 🔬 End-to-end RNA-Seq transcriptome analysis with functional annotation and docking validation
+🔬 End-to-end RNA-Seq transcriptome analysis with functional annotation and docking validation
 
-## 🔬 Project Highlights
+## Project Highlights
 - Performed complete RNA-Seq analysis pipeline
 - Identified unique transcripts in Salmonella enterica
 - Conducted functional annotation using Gene Ontology
